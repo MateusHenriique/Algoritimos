@@ -8,7 +8,7 @@ inicio
       escreval("    T O R N E I O  D E  F U T E B O L    ")
       escreval("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=")
       para c <- 1 ate 3 faca
-           escreva("digite o ", c, "° time: ")
+           escreva("Digite o ", c, "ï¿½ time: ")
            leia(times[c])
       fimpara
       escreval("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=")

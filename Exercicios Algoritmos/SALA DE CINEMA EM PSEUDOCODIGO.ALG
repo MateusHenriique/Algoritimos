@@ -1,4 +1,6 @@
 Algoritmo "sala de cinema em pseudocodigo"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
 
 Var
    assento: vetor[1..15] de caractere
@@ -60,7 +62,7 @@ Inicio
       fimpara
    enquanto res <> "N" faca
       escreva_sala()
-      escreva("  QUAL ASSENTO VOCï¿½ DESEJA RESERVAR: ")
+      escreva("  QUAL ASSENTO VOCÊ DESEJA RESERVAR: ")
       leia(reserva)
       disponivel <- 0
       para c <- 1 ate 15 faca
@@ -73,7 +75,8 @@ Inicio
               disponivel <- disponivel + 1
          fimse
          se disponivel = 15 entao
-         escreval("Este assento jï¿½ foi reservado por outra pessoa!")
+         escreva_sala()
+         escreval("Este assento já está reservado por outra pessoa!")
          fimse
       fimpara
       escreva("Deseja reservar outro assento? [S / N]")
